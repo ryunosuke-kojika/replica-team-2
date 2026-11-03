@@ -1,3 +1,22 @@
-/* PART B styles. Owner: [first name]
+/* PART B styles. Owner: [ryu]
    Only style the things inside Part B of index.html.
    Put your phone-size rules in a media query at the bottom of this file. */
+/* Add your Part B styles below */
+ul {
+  display: inline-block;
+  align-items: center;
+  gap: 1rem;
+}
+
+ul img {
+  width: 100px;
+  height: auto;
+  border-radius: 50%;
+}
+
+@media (max-width: 600px) {
+  ul img {
+    max-width: 760px;
+    height: auto;
+  }
+}
